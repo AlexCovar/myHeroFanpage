@@ -1,0 +1,24 @@
+body {
+    background-image: url("images/myHeroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social {
+    display:flex;
+    justify-content: center;
+}
+.social-image {
+    width:30px;
+}
+.header {
+    display:flex;
+    justify-content:center;
+}
+.navbar {
+    text-align:center;
+    font-size:25px;
+}
+.frontPageImage {
+    width:700px;
+    margin-left:300px;
+}
