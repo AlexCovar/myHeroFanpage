@@ -4,19 +4,39 @@
         <meta charset="utf-8"/>
         <title>My Hero Fanpage </title>
         <link rel="stylesheet" href="stylesheet.css"/>
+        <script src="main.js"></script>
     </head>
     <body>
         <div class ="header">
             <img class="myHeroLogo" src="images/myHeroLogo.png">
         </div>
         <div class ="navbar">
-             <a href="#"><strong>Home</strong></a>
-             <a href="#"><strong>Characters</strong></a>
-             <a href="#"><strong>Plot</strong></a>
+             <a href="index.html"><strong>Home</strong></a>
+             <a href="characters.html"><strong>Characters</strong></a>
+             <a href="plot.html"><strong>Plot</strong></a>
         </div>
-        <div class="main">
+        <div class="main">                  
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
             <img class="frontPageImage" src="images/myHeroFrontPageImage.jpg">
+            </div>
+        
+            <div class="mySlides fade">
+            <img class="frontPageImage" src="images/myHeroFrontPageImage2.jpg">
+            </div>
+        
+            <div class="mySlides fade">
+            <img class="frontPageImage" src="images/myHeroFrontPageImage3jpg.jpg">
+            </div>
         </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+            </div>
         <div class="content">
         </div>
         <div class ="footer">
@@ -32,7 +52,7 @@
                     </a>
             </div>
             <div>
-                <p>Copyright 2018 &copy</p>
+                <p>Copyright 2018 & copy</p>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
